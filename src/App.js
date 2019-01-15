@@ -1,11 +1,14 @@
 import React from 'react';
+import Routes from './routes';
+
 import Header from './components/Header';
+
 import './styles.css';
-// API: https://rocketseat-node.herokuapp.com/api/products
 
 const App = () => (
   <div className="App">
     <Header />
+    <Routes />
   </div>
 )
 
